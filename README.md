@@ -31,7 +31,7 @@ options:
   --support SUPPORT     Filter out branches with bootstrap values lower than the standard during the identification of ancient transfer events.  
 ```
 
-## </a> issue
+## </a> Issue
 If any questions, contact at Yujie Huang <yujiehuang@zju.edu.cn>, or Dongya Wu <wudongya@zju.edu.cn>,ZJU  
 
 ## </a>Citating HgtFinder
