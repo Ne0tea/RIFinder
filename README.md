@@ -87,7 +87,7 @@ Prepare your input files (`trees.txt`, `config.txt`).
 | `Donor species`   | Donor species in the gene flow event. **\|** was used to connect different species abbreviations, specified in the config file.| D1, D2\|D3\|D4|
 | `Receive species` | Receiving species in the gene flow event. The same method was used to connect different species as `Donor species`.| A1, A2\|A3\|A4|
 
-1. **$prefix[**OUT**].out.OG.node.nwk**: Tree structure of each OG-like for detected gene flow events.  
+2. **$prefix[**OUT**].out.OG.node.nwk**: Tree structure of each OG-like for detected gene flow events.  
   
 
 |Column Header|        Description|Example|
