@@ -73,9 +73,9 @@ Prepare your input files (`trees.txt`, `config.txt`).
 | `GF gene number`  | Number of transferred genes involved in gene flow events.                                                                                                                                | 10                                            |
 | `Conflict type`   | Labelling different types of conflicts between gene tree structure and species tree structure.                                                                                            | Topology inconsistent, Topology consistent, RGF |
 | `Donor clade`     | Donor clade to which donor species belong in the gene flow event. For ancient gene flow events, the donor clade may be a coalescent unit of multiple existing clades, split by **|**. | A or A|B                                      |
-| `Receive clade`   | Clade to which receiving species belong in the gene flow event. For ancient gene flow, a way consistent with the `donor clade` column will be used.                                        | A or A|B                                      |
-| `Donor species`   | Donor species in the gene flow event. **|** was used to connect different species abbreviations, specified in the config file.                                                          | D1, D2|D3|D4                                  |
-| `Receive species` | Receiving species in the gene flow event. The same method was used to connect different species as `Donor species`.                                                                       | A1, A2|A3|A4                                  |
+| `Receive clade`   | Clade to which receiving species belong in the gene flow event. For ancient gene flow, a way consistent with the `donor clade` column will be used.                                        | A or A\|B                                      |
+| `Donor species`   | Donor species in the gene flow event. **|** was used to connect different species abbreviations, specified in the config file.                                                          | D1, D2\|D3\|D4                                  |
+| `Receive species` | Receiving species in the gene flow event. The same method was used to connect different species as `Donor species`.                                                                       | A1, A2\|A3\|A4                                  |
 
 2. **config.txt**: Configuration of homoeologous chromosomes.
     ```
