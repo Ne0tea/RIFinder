@@ -6,10 +6,10 @@
  * @LastEditors: Ne0tea
  * @LastEditTime: 2024-10-12 15:22:06
 -->
-# Ancient Gene Flow Detection
+# Remote Introgression Finder
 
 ## Overview
-AGFD is a tool designed to identify gene flow events across a phylogeny of multiple assemblies. It analyzes gene tree structures and interspecies relationships to detect potential gene flow.
+RIFinder is a tool designed to identify remote introgression events across a phylogeny of multiple assemblies. It analyzes gene tree structures and interspecies relationships to detect potential introgression.
 
 ## Installation and Dependencies
 Ensure the following Python libraries are installed:
@@ -30,19 +30,19 @@ statsmodels==0.14.3
 
 ### Command Line Arguments:
 ```
-python agfd.py -f <gene_tree_file> -c <config_file> [-o <output_file>] [-rn] [-t <num_threads>] [--kmax <float>] [--kmin <float>] [--support <int>]
+python RIFinder.py -f <gene_tree_file> -c <config_file> [-o <output_file>] [-rn] [-t <num_threads>] [--kmax <float>] [--kmin <float>] [--support <int>]
 **Parameters:**
 
 -f, --treefile: Gene tree file set, one tree file path per line.
 -c, --config: Configuration file indicating phylogenetic relationships and subgroup species.
--o, --out: Output file name (default: AGFD_output.txt).
+-o, --out: Output file name (default: RIFinder_output.txt).
 -rn, --rootnested: Whether to disentangle tree structure nested with Outgroup.
 -t, --thread: Number of threads (default: 1).
 --support: Filter out branches with bootstrap values lower than the standard during the identification of ancient transfer events (default: 70).
 ```
 ### Example Command:
 
-`python agfd.py -f trees.txt -c config.txt -o output.txt -t 4 --support 70`
+`python RIFinder.py -f trees.txt -c config.txt -o output.txt -t 4 --support 70`
 
 
 ### Usage Example
