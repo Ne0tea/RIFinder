@@ -1,0 +1,9 @@
+>phylogeny
+((PAC,MAD),((PP,OO),BB));
+>subg list
+BB Phedu Dlat Olat Bamp DlatA DlatB DlatC
+OO Lper Oruf Osat Obra Omer Oglu Opun Ogla Obar Zlat Zpal
+PP Aspl Atau Astr Hvul HvulSp Pten Scer Telo Ttur TturA TturB Bdis Bsta HvulC Taes TaesA TaesB TaesD Tdic TdicA TdicB Tura
+PAC Ehap Asem Came Cpur CpurA CpurB Doli Dexi DexiA DexiB Msin MsinA MsinB Phal Pvir PvirK PvirN Sita Svir Sbic Zmay EcolDL Ecol EcolD EcolFL EcolE EcolEL EcolF Ecru EcruBH EcruA EcruB EcruC Eory EoryA EoryB
+MAD Cson CsonA CsonB Ecur EtefUn Etef EtefA EtefB Enin Otho Zjap
+OUT Plat Acom
