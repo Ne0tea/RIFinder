@@ -24,7 +24,7 @@ statsmodels==0.14.3
 ```
 **To install any missing dependencies, you can use pip:**
 `pip install -r requirements.txt`
-
+It just takes several minutes for downloading.
 
 ## Running the Tool
 
